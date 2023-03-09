@@ -15,13 +15,13 @@
 
                     <div class="row">
 
-                        <div class="col-md-12 mb-3">
+                        <div class="col-md-6 mb-3">
                             <label >Name</label>
                             <input type="text" name="name" class="form-control">
                             @error('name')<small class="text-danger">{{ $message }}</small>@enderror
                         </div>
 
-                        <div class="col-md-12 mb-3">
+                        <div class="col-md-6 mb-3">
                             <label>Slug</label>
                             <input type="text" name="slug" class="form-control">
                         </div>
